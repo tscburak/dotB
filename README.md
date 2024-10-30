@@ -36,6 +36,7 @@ Finding your GTA Vice City save files is a breeze! Here’s how to locate them:
 ## Acknowledgments
 
 Developed by [tscburak](https://tscburak.dev). Enjoy the game, and remember to keep those backups!
+
 Credit (the Nameless Hero): [Super Cheats](https://www.supercheats.com/pc/questions/grandtheftautovicecity/151319/how-to-stop-fight-fight-fight.htm)
 
 ---
