@@ -143,7 +143,7 @@ export default function Home() {
             </Stack>
           )}
         </Stack>
-        <Text mt={"auto"} p={"xl"}>Developed and designed by <a style={{color:"var(--mantine-color-purple-5)"}}  href="https://tscburak.dev">tscburak</a></Text>
+        <Text mt={"auto"} p={"xl"}>Developed and designed by <a target="_blank" style={{color:"var(--mantine-color-purple-5)"}}  href="https://tscburak.dev">tscburak</a> -  <a  target="_blank" href="https://github.com/tscburak/dotB" style={{color:"var(--mantine-color-purple-5)"}}>Source Code</a></Text>
       </Stack>
     </Center>
   );
