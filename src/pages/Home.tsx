@@ -1,50 +1,18 @@
 import {
-  Button,
-  Card,
-  CardSection,
-  Center,
-  Divider,
-  FileInput,
-  Image,
-  SimpleGrid,
-  Stack,
-  Text,
-  TextInput,
-  Title,
+    Button,
+    Center,
+    Divider,
+    FileInput,
+    Image,
+    SimpleGrid,
+    Stack,
+    Text,
+    Title
 } from "@mantine/core";
-import { useState } from "react";
 import { notifications } from "@mantine/notifications";
+import { useState } from "react";
 import logo from "../../public/logo1.svg";
-// TODO
-type InfoType = {
-  currentLevel: number;
-  SystemTime: {
-    wYear: number; // Uint16
-    wMonth: number; // Uint16
-    wDayOfWeek: number; // Uint16
-    wDay: number; // Uint16
-    wHour: number; // Uint16
-    wMinute: number; // Uint16
-    wSecond: number; // Uint16
-    wMilliseconds: number; // Uint16
-  };
-  PlayerInfo: {
-    currentMoney: number; // Uint32
-    wastedStatus: number; // Uint8
-    currentlyDisplayedMoney: number; // Uint32
-    numberOfPackagesPickedUp: number; // Uint32
-    totalNumberOfPackages: number; // Uint32
-    neverGetsTired: number; // Uint8
-    fastReload: number; // Uint8
-    fireProof: number; // Uint8
-    maxHealth: number; // Uint8
-    maxArmor: number; // Uint8
-    getOutOfJailFree: number; // Uint8
-    freeHealthCare: number; // Uint8
-    canDoDriveBy: number; // Uint8
-    audioStatus: number; // Uint8
-  };
-};
+
 export default function Home() {
   const [file, setFile] = useState<File | null>(null);
   const [output, setOutput] = useState<string>();
